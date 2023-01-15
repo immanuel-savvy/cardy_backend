@@ -1,6 +1,7 @@
 {
   "name": "cardy-backend",
   "version": "1.0.0",
+  "homepage": "https://immanuel-savvy.github.io/cardy_backend",
   "description": "",
   "main": "Cardy.js",
   "scripts": {
@@ -9,11 +10,12 @@
     "build": "babel ./route_handlers/email.js ./route_handlers/rent.js ./route_handlers/users.js ./routes.js ./Cardy.js ./utils/functions.js ./ds/conn.js -d build"
   },
   "devDependencies": {
-    "esm": "^3.2.25",
-    "nodemon": "^2.0.20",
     "@babel/cli": "^7.18.10",
     "@babel/core": "^7.19.1",
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "esm": "^3.2.25",
+    "gh-pages": "^4.0.0",
+    "nodemon": "^2.0.20"
   },
   "author": "Savvy",
   "license": "ISC",
